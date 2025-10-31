@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F8A28FB2EB4ED8400877E8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A28F92EB4ED8400877E8C /* AppDelegate.swift */; };
+		5F8A28FC2EB4ED8400877E8C /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A28FA2EB4ED8400877E8C /* AppEntryPoint.swift */; };
+		5F8A28FF2EB4EDCB00877E8C /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A28FD2EB4EDCB00877E8C /* PrivacyView.swift */; };
+		5F8A29062EB4EDD400877E8C /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A29042EB4EDD400877E8C /* WebSheetViewController.swift */; };
+		5F8A29072EB4EDD400877E8C /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A29012EB4EDD400877E8C /* UserAgentBuilder.swift */; };
+		5F8A29082EB4EDD400877E8C /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A29022EB4EDD400877E8C /* WebViewContainer.swift */; };
+		5F8A29092EB4EDD400877E8C /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A29032EB4EDD400877E8C /* WebViewCoordinator.swift */; };
+		5F8A290A2EB4EDD400877E8C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A29002EB4EDD400877E8C /* index.html */; };
+		5F8A290C2EB4EE3A00877E8C /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A290B2EB4EE3A00877E8C /* TextScreen.swift */; };
+		5F8A290E2EB4EF5E00877E8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F8A290D2EB4EF5E00877E8C /* GoogleService-Info.plist */; };
 		72370C2D2EA7D5F9003FB79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72370C2A2EA7D5F9003FB79F /* Assets.xcassets */; };
 		72370C2E2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72370C2B2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift */; };
 		72370C342EA7D633003FB79F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72370C302EA7D633003FB79F /* View+Extensions.swift */; };
@@ -19,6 +29,17 @@
 
 /* Begin PBXFileReference section */
 		5AE582AE5D3366918C55305C /* libPods-ChicknRabbitFarm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChicknRabbitFarm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8A28F92EB4ED8400877E8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F8A28FA2EB4ED8400877E8C /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		5F8A28FD2EB4EDCB00877E8C /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		5F8A29002EB4EDD400877E8C /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5F8A29012EB4EDD400877E8C /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		5F8A29022EB4EDD400877E8C /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		5F8A29032EB4EDD400877E8C /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		5F8A29042EB4EDD400877E8C /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		5F8A290B2EB4EE3A00877E8C /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		5F8A290D2EB4EF5E00877E8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5F8A290F2EB4EFB400877E8C /* ChicknRabbitFarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChicknRabbitFarm.entitlements; sourceTree = "<group>"; };
 		72370C142EA7D578003FB79F /* ChicknRabbitFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicknRabbitFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72370C2A2EA7D5F9003FB79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72370C2B2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicknRabbitFarmApp.swift; sourceTree = "<group>"; };
@@ -44,6 +65,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F8A28FE2EB4EDCB00877E8C /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5F8A28FD2EB4EDCB00877E8C /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		5F8A29052EB4EDD400877E8C /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				5F8A29002EB4EDD400877E8C /* index.html */,
+				5F8A29012EB4EDD400877E8C /* UserAgentBuilder.swift */,
+				5F8A29022EB4EDD400877E8C /* WebViewContainer.swift */,
+				5F8A29032EB4EDD400877E8C /* WebViewCoordinator.swift */,
+				5F8A29042EB4EDD400877E8C /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		704C663D24A6EE82AF59923F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +115,8 @@
 		72370C2C2EA7D5F9003FB79F /* ChicknRabbitFarm */ = {
 			isa = PBXGroup;
 			children = (
+				5F8A290F2EB4EFB400877E8C /* ChicknRabbitFarm.entitlements */,
+				5F8A290D2EB4EF5E00877E8C /* GoogleService-Info.plist */,
 				72370C3E2EA7D6A2003FB79F /* Info.plist */,
 				72370C3B2EA7D639003FB79F /* Screens */,
 				72370C332EA7D633003FB79F /* Extensions */,
@@ -86,6 +129,8 @@
 		72370C2F2EA7D5FD003FB79F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				5F8A28F92EB4ED8400877E8C /* AppDelegate.swift */,
+				5F8A28FA2EB4ED8400877E8C /* AppEntryPoint.swift */,
 				72370C2B2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift */,
 			);
 			path = App;
@@ -94,6 +139,7 @@
 		72370C332EA7D633003FB79F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5F8A290B2EB4EE3A00877E8C /* TextScreen.swift */,
 				72370C302EA7D633003FB79F /* View+Extensions.swift */,
 				72370C312EA7D633003FB79F /* Color+Extensions.swift */,
 				72370C322EA7D633003FB79F /* ShapeStyle+Extensions.swift */,
@@ -120,6 +166,8 @@
 		72370C3B2EA7D639003FB79F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5F8A29052EB4EDD400877E8C /* Web */,
+				5F8A28FE2EB4EDCB00877E8C /* PrivacyScreen */,
 				72370C382EA7D639003FB79F /* HomeWebScreen */,
 				72370C3A2EA7D639003FB79F /* LaunchScreen */,
 			);
@@ -195,6 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72370C2D2EA7D5F9003FB79F /* Assets.xcassets in Resources */,
+				5F8A290E2EB4EF5E00877E8C /* GoogleService-Info.plist in Resources */,
+				5F8A290A2EB4EDD400877E8C /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,9 +259,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -249,9 +303,17 @@
 			files = (
 				72370C3C2EA7D639003FB79F /* CRLaunchView.swift in Sources */,
 				72370C3D2EA7D639003FB79F /* CRHomeWebView.swift in Sources */,
+				5F8A28FF2EB4EDCB00877E8C /* PrivacyView.swift in Sources */,
 				72370C342EA7D633003FB79F /* View+Extensions.swift in Sources */,
+				5F8A29062EB4EDD400877E8C /* WebSheetViewController.swift in Sources */,
+				5F8A29072EB4EDD400877E8C /* UserAgentBuilder.swift in Sources */,
+				5F8A29082EB4EDD400877E8C /* WebViewContainer.swift in Sources */,
+				5F8A29092EB4EDD400877E8C /* WebViewCoordinator.swift in Sources */,
+				5F8A290C2EB4EE3A00877E8C /* TextScreen.swift in Sources */,
 				72370C352EA7D633003FB79F /* ShapeStyle+Extensions.swift in Sources */,
 				72370C362EA7D633003FB79F /* Color+Extensions.swift in Sources */,
+				5F8A28FB2EB4ED8400877E8C /* AppDelegate.swift in Sources */,
+				5F8A28FC2EB4ED8400877E8C /* AppEntryPoint.swift in Sources */,
 				72370C2E2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,10 +441,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChicknRabbitFarm/ChicknRabbitFarm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				DEVELOPMENT_TEAM = 4NSB29K6FK;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChicknRabbitFarm/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -400,7 +464,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanproj.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tritestpushsw.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -419,10 +483,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChicknRabbitFarm/ChicknRabbitFarm.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				DEVELOPMENT_TEAM = 4NSB29K6FK;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChicknRabbitFarm/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -440,7 +506,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osmanproj.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tritestpushsw.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
