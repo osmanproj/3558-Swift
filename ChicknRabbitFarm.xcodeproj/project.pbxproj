@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,11 @@
 		72370C362EA7D633003FB79F /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72370C312EA7D633003FB79F /* Color+Extensions.swift */; };
 		72370C3C2EA7D639003FB79F /* CRLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72370C392EA7D639003FB79F /* CRLaunchView.swift */; };
 		72370C3D2EA7D639003FB79F /* CRHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72370C372EA7D639003FB79F /* CRHomeWebView.swift */; };
-		A4AABAEF0A19A89223081A0C /* Pods_ChicknRabbitFarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 295684F606719F3F6ACFD99B /* Pods_ChicknRabbitFarm.framework */; };
+		FCFF87AEF3AD3E170F20B1C9 /* libPods-ChicknRabbitFarm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE582AE5D3366918C55305C /* libPods-ChicknRabbitFarm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		295684F606719F3F6ACFD99B /* Pods_ChicknRabbitFarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChicknRabbitFarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE582AE5D3366918C55305C /* libPods-ChicknRabbitFarm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChicknRabbitFarm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72370C142EA7D578003FB79F /* ChicknRabbitFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicknRabbitFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72370C2A2EA7D5F9003FB79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72370C2B2EA7D5F9003FB79F /* ChicknRabbitFarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicknRabbitFarmApp.swift; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4AABAEF0A19A89223081A0C /* Pods_ChicknRabbitFarm.framework in Frameworks */,
+				FCFF87AEF3AD3E170F20B1C9 /* libPods-ChicknRabbitFarm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 		88B04277BF86D5F1080150D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				295684F606719F3F6ACFD99B /* Pods_ChicknRabbitFarm.framework */,
+				5AE582AE5D3366918C55305C /* libPods-ChicknRabbitFarm.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -145,6 +145,7 @@
 				72370C102EA7D578003FB79F /* Sources */,
 				72370C112EA7D578003FB79F /* Frameworks */,
 				72370C122EA7D578003FB79F /* Resources */,
+				6ABE4CDD2C6E7A5D082E0680 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,7 +180,6 @@
 				Base,
 			);
 			mainGroup = 72370C0B2EA7D578003FB79F;
-			minimizedProjectReferenceProxies = 1;
 			productRefGroup = 72370C152EA7D578003FB79F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,6 +201,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6ABE4CDD2C6E7A5D082E0680 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChicknRabbitFarm/Pods-ChicknRabbitFarm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9BF4E6BD4DBEA69C13430A36 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
