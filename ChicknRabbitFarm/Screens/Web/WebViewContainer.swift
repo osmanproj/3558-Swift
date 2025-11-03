@@ -8,6 +8,7 @@ struct WebViewContainer: UIViewRepresentable {
     
     func makeUIView(context: Context) -> WKWebView {
         let webConfiguration = WKWebViewConfiguration()
+        webConfiguration.websiteDataStore = .default()
         webConfiguration.userContentController.add(context.coordinator, name: "iosListener")
         webConfiguration.userContentController.add(context.coordinator, name: "contentLoaded")
 

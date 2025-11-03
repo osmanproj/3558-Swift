@@ -7,8 +7,8 @@ final class WebViewCoordinator: NSObject, WKNavigationDelegate, WKScriptMessageH
     var lastLoadedURL: String = ""
     private var redirectCount = 0
     private var wasCatchDetected = false
-    private let baseDomain = "http://chicknrabbitfarm.guru/playeranimals.json/"
-    private let baseSecurityDomain = "https://chicknrabbitfarm.guru/playeranimals.json/"
+    private let baseDomain = "http://chicknrabbitfarm.guru"
+    private let baseSecurityDomain = "https://chicknrabbitfarm.guru"
     private var hasHandledScore = false
     private var hasSavedFinalURL = false
     
