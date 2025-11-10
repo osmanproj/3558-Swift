@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "723F5B177CF77902BC21437D9D085FF3"
-               BuildableName = "Pods_ChicknRabbitFarm.framework"
+               BuildableName = "libPods-ChicknRabbitFarm.a"
                BlueprintName = "Pods-ChicknRabbitFarm"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -14,11 +14,11 @@ enum TypeScreen {
         switch self {
         case .policy:
                 """
-                Chick'n Rabbit Farm Privacy Policy
+                Buddy's Farm Privacy Policy
 
                 Get complete online protection - VPN, ad blocker, and more
                 Sponsored
-                This privacy policy applies to the Chick'n Rabbit Farm app (hereby referred to as "Application") for mobile devices that was created by Benjamin Hall (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+                This privacy policy applies to the Buddy's Farm app (hereby referred to as "Application") for mobile devices that was created by Benjamin Hall (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
 
                 Information Collection and Use
 
